@@ -1,0 +1,12 @@
+<div class="col-sm-6 offset-sm-3">
+    <div class="card shadow mb-4 bg-white">
+        <div class="card-header">
+            <h1 class="display-4 " style="text-align:center"> Weather Map: {{location}}</h1>
+        </div>
+
+        <div class="card-body" *ngIf="chart">
+            <canvas id="canvas"> {{ chart }} </canvas>
+        </div>
+    </div>
+</div>
+
